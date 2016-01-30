@@ -1,0 +1,35 @@
+# Development environment
+.DS_Store
+.idea/
+ansible/roles/
+.vagrant/
+docker/
+
+# Parameters, personal stuff
+app/config/parameters.yml
+ansible/vars.local.yml
+phpunit.xml
+wallet/
+
+# Cache, logs, vendors, generated stuff
+app/cache/*
+app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+app/check.php
+app/SymfonyRequirements.php
+app/bootstrap.php.cache
+.php_cs.*
+bin/
+vendor/
+node_modules/
+
+# Assets and user uploads
+web/css/
+web/js/
+web/flags/
+web/fonts/
+web/bundles/
+web/uploads/
+web/filer/
+web/tests-coverage/

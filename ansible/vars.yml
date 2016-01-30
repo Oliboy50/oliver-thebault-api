@@ -1,0 +1,9 @@
+timezone: UTC
+
+php_version: '5.6'
+
+sites: sites
+
+mysql: mysql
+
+workspace: workspace
