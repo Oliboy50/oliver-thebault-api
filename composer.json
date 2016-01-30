@@ -1,6 +1,6 @@
 {
-    "name": "link-value/majora-standard-edition",
-    "description": "Majora standard edition by LinkValue",
+    "name": "Oliboy50/oliver-thebault-api",
+    "description": "oliver-thebault-api",
     "type": "project",
     "autoload": {
         "psr-4": {
