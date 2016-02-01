@@ -121,7 +121,7 @@ run-tests:
 	bin/phpunit -c app
 
 # CI
-install-ci: install-bin install-composer db-build clean
+install-ci: install-bin install-composer clean
 
 travis-install: install-ci
 	curl https://scrutinizer-ci.com/ocular.phar -o bin/ocular.phar
