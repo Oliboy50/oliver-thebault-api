@@ -1,7 +1,6 @@
 language: php
 
 php:
-  - 5.5
   - 5.6
 
 install:
@@ -10,10 +9,9 @@ install:
 script:
   - make travis-script
 
-#notifications:
-#  slack:
-#    rooms:
-#      - {{ CHANNEL_INTEGRATION_TOKEN }}
-#    on_success: change
-#    on_failure: always
-#    on_start: never
+notifications:
+  slack:
+    secure: "qSmW5TJZiKMedO8ZU4lqdmuRFEUhfwGnetwGnVrswSk3rlkuiHUizWd/C1/xPKtaeNmtUBBrs5FdmhDjXZoL1QrbB/aasB0Zpaam2mwfQFQIPLwZJWAi0QKrtAt4x1dxPB0zN9FhJlKDaTTltpN2oUqd7/n7p9Y/DC/A6K/+mq74POXGppIuWcUTGPpGBGgdkPAsYSli/mfeVefuD4epThvPfRX7FpWbKUy7eLOYz2K5nk2T3bV7nKbSB0ekv2EoXJbIJGjYBnVRzIgPkpAOkyOuuJ8T0I9FocIX2ZCV58wPgsM0IP4+nAjjf8pmAVNoIs5nI2Q7dA2AOHlW3AtrBF06Z7T+Wocw8Oamai+GzElAfx9nksaY5oQGDFnQSi4kzgIJ58WSudkcxtFySjaUx4mY3KgEqcV4bfXK8ALTfxQm+O2Qch6EVtW8XtS7reTwLraO4k1UV95CbBdQHUSK+r/0HFqjjfufV3ZPO/m619hPxe4qoydNlRWUJh4iOZ9CJazv72JPDspG/RsaG3kd0knxnNiOJ9egL7PIMBIwET0TJACPRRSON4S6GSgVBcvDYPvMqtrxZi2ed6Z8uzB0hg5ngkHt3m/HW+KjgtnbCv8YOjvn1V/Cc1nmNWg53oZnNFAKG1wn3Nl/Ekt5RNYVmSMm6okxuICDI9rhJ3X/qik="
+    on_success: change
+    on_failure: always
+    on_start: never
